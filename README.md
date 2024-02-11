@@ -24,13 +24,11 @@ Haciendo disponible la rama en el repositorio remoto
 `git push origin dev-juan`
 
 ### Trabajo colaborativo 
-Para poder hacer git push al repositorio remoto vamos a utilizar 
-`git push --set-upstream origin dev-juan`
 
-**Nota: Esto se debe repetir en las otras ramas**
 
-Supongamos que tenemos una rama que se llame dev-sebastian de la cual queremos traer sus cambios
-``
+Supongamos que tenemos una rama que se llame dev-sebastian
+
+
 
 
 
