@@ -44,7 +44,7 @@ Para combinar los cambios vamos a utilizar
 **Nota: Puede haber conflictos en esta operación los cuales deben ser resueltos antes de hacer commit de estos cambios**
 
 finalmente para enviar los cambios al repositorio remoto
-`git add .`
+`git add .`  
 `git commit -m "merge con dev-sebastian"`
 
 
