@@ -29,8 +29,23 @@ Para poder hacer git push al repositorio remoto vamos a utilizar
 
 **Nota: Esto se debe repetir en las otras ramas**
 
-Supongamos que tenemos una rama que se llame dev-sebastian de la cual queremos traer sus cambios
-``
+Supongamos que tenemos una rama que se llame dev-sebastian de la cual queremos traer sus cambios, Para ello nos vamos a cambiar a la rama de dev-sebastian con
+`git checkout dev-sebastian`
+
+Vamos a traer sus cambios con
+`git pull`
+
+Vamos a volver a nuestra rama con
+`git checkout dev-juan`
+
+Para combinar los cambios vamos a utilizar 
+`git merge dev-sebastian`
+
+**Nota: Puede haber conflictos en esta operación los cuales deben ser resueltos antes de hacer commit de estos cambios**
+
+finalmente para enviar los cambios al repositorio remoto
+`git add .`
+`git commit -m "merge con dev-sebastian"`
 
 
 
