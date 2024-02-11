@@ -24,7 +24,11 @@ Haciendo disponible la rama en el repositorio remoto
 `git push origin dev-juan`
 
 ### Trabajo colaborativo 
+
+
 Supongamos que tenemos una rama que se llame dev-sebastian
+
+
 
 
 
